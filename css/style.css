@@ -1,104 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&family=Montserrat:wght@100;300;400;500;700&display=swap');
 body{
     margin: 0;
+    width: 100%;
+    font-family: 'Gelasio', serif;;
 }
-.banner{
+h1, h2, h3{
+    font-family: 'Gelasio', serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.banner_container{
     background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-959cd108--Rectangle-83-copy.png?v=1604370409");
-    background-position: 100% 50%;
+
     background-repeat: no-repeat;
     background-color: #9C2128;
-    background-size: cover;
-    height: 867px;
-    width: 100%;
-    position: relative;
+    background-size: contain;
+    background-position: center right;
+    height: 867px
 }
 .banner_content{
-    position: absolute;
-    top: 264px;
-    right: 744px;
-    bottom: 463px;
-    left: 134px;
+    max-width: 1170px;
+    margin: auto;
+    padding: 250px 0px;  
 }
 .banner_title{
-    font-family: Gelasio;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
-    line-height: 106.5%;
+    line-height: 1em;
     color: #FFF8E7;
     width: 563px;
-    height: 140px;
 }
 .banner_para{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 137.5%;
+    line-height: 1.4em;
     color: #FFFFFF;
     width: 462px;
-    margin-top: 16px;
+    padding-bottom: 32px;
     
 }
-.banner_btn-link{
+.btn-link{
     text-decoration: none;
-}
-.banner_btn{
+    padding: 15px 40px;
     background: #FFF8E7;
     border-radius: 50px;
-    width: 227px;
-    height: 50px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 137.5%;
+    line-height: 1.4em;
     text-align: center;
     color: #9C2128;
-    margin-top: 32px;
 }
-.banner_btn:hover{
+.btn-link:hover{
     background: #530C10;
-    border-radius: 50px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 137.5%;
-    text-align: center;
     color: white; 
     cursor: pointer; 
+    padding: 15px 40px;
+
 }
 .section2{
     width: 100%;
     height: auto;
-    padding-bottom: 102px;
+    padding: 102px 0px;
 }
 .benefit_title{
-    font-family: Gelasio;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 61px;
+    line-height: 1.3em;
     text-align: center;
     color: #9C2128;
-    margin-top: 102px;
+    padding-bottom: 60px;
 }
 .benefit_block{
-    width: 794px;
-    height: 337px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex: 1;
-    margin-left: 90px;
-    margin-top: 60px;
-
+    gap: 30px;
 }
 .benefit_item{
     width: 368px;
     height: 321px;
     background: #FFF8E7;
     border-radius: 50px;
-    margin-right: 33px;
 }
 .benefit_img{
     width: 190px;
@@ -106,11 +95,11 @@ body{
     margin: 48px 90px 18px 88px;
 }
 .benefit_para{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 1.2em;
     text-align: center;
     color: #530C10;
 }
@@ -120,33 +109,28 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 565px;
-    position: relative;
 }
 .cd_title{
-    padding-top: 157px;
-    font-family: Gelasio;
+    padding: 157px 0px 40px;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 61px;
+    line-height: 1.3em;
     text-align: center;
     color: #FFF8E7;
 }
 .cd_time{
     display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    margin-left: 336px;
-    margin-right: 336px;
-    margin-bottom: 156px;
+    justify-content: center;
+    padding-bottom: 156px; 
+    gap: 10px;
 }
 .cd_time-container{
     width: 148px;
     height: 148px;
     border-radius: 100%;
     background-color: white;
-    font-family: Gelasio;
+    font-family: 'Gelasio', serif;
     font-style: normal;
     color: #9C2128;
     text-align: center;
@@ -157,28 +141,30 @@ body{
     height: 68.81px;
     font-weight: bold;
     font-size: 48px;
-    line-height: 61px;
+    line-height: 1.3em;
     margin: 34px 40px 40px;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 .cd_word{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2em;
     margin-bottom: 46px;
     margin-top: -48px;
 }
 .section4{
     display: flex;
     flex: 1;
+    justify-content: center;
+    margin-top: 10px;
 }
 .section4_left{
     background-color: #9C2128;
     height: 548px;
     color: #FFF8E7;
     width: 50%;
-    
 }
 .section4_right{
     background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-d129cb84--photo1577029025893887706608495-1.png?v=1604451781");
@@ -187,44 +173,50 @@ body{
     width: 50%;
 }
 .section4_left-content{
-    margin-top: 156px;
-    margin-left: 136px;
     box-sizing: border-box;
     text-align: left;
     width: 300px;
     height: 315px;
+    margin: auto;
+    padding: 146px 0px;
+    box-sizing: border-box;
 }
 .section4_left-title{
     font-weight: bold;
     font-size: 48px;
-    line-height: 61px;
+    line-height: 1.3em;
     text-align: left;
+    font-family: 'Gelasio', serif;
+    padding-bottom: 30px;
 }
 .secton4_left-para{
     font-size: 18px;
-    line-height: 137.5%;
-    padding-top: 100px;
+    line-height: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 .section5{
     font-style: normal;
+    padding: 100px 0px;
+    
 }
 .section5_title1{
-    margin-top: 122px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 1.2em;
     text-align: center;
     text-transform: uppercase;
     color: #530C10;
+    padding-bottom: 20px;
 }
 .section5_title2{
     margin-top: -20px;
     text-align: center;
-    font-family: Gelasio;
+    font-family: 'Gelasio', serif; ;
     font-weight: bold;
     font-size: 48px;
-    line-height: 61px;
+    line-height: 1.3em;
     text-align: center;   
     color: #9B2128;   
 }
@@ -232,12 +224,13 @@ body{
     padding: 20px;
 }
 .gift-for- h2{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;;
     font-weight: bold;
     font-size: 36px;
-    line-height: 137.5%;
+    line-height: 1.4em;
     text-align: center;
     color: #530C10;
+    padding: 30px 0;
 }
 .gift-for-_item{
     display: flex;
@@ -246,7 +239,7 @@ body{
 }
 .gift-for-_item1{
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -258,37 +251,39 @@ body{
     width: 270px;
 }
 .product-name{
-    line-height: 137.5%;
+    line-height: 24.75px;
     height: 28px;
 }
 .price{
     line-height: 24px;
     display: flex;
     justify-content: center;
+    padding: 24px 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 .price-ori{
     text-decoration: line-through;
     margin-right: 20px;
 }
-.button_item-link button{
+.button_item-link{
     margin-top: 36px;
     text-decoration: none;
-    width: 176px;   
-    height: 50px;
+    padding: 10px 22px;
     border: 0.5px solid #c28487;
     box-sizing: border-box;
     border-radius: 50px;
     background: #9C2128;
     color: white;
     font-size: 18px;
-    line-height: 137.5%;
+    line-height: 24.75px;
 }
-.button_item-link button:hover{
+.button_item-link:hover{
     background: #530C10;
     cursor: pointer;
+    padding: 10px 22px;
 }
 .section6{
-    font-family: Gelasio;
+    font-family: "Gelasino", sans-serif;
     font-style: normal;
     text-align: center;
     color: #FFF8E7;
@@ -298,18 +293,7 @@ body{
     background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-eeb894fa--headersparkling09-1.png?v=1604463905");
     background-size:cover ;
     background-repeat: no-repeat;
-    height:561px;
-    
-
-}
-.section6_title{
-    padding-top: 80px;
-}
-.section6-para1{
-
-}
-.section6-para1{
-
+    padding: 100px 0px;
 }
 .section6_img{
     width: 134px;
@@ -329,6 +313,7 @@ body{
     margin-right: auto;
     margin-top: 30px;
     font-weight: thin;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .section6_customer-name{
@@ -338,19 +323,18 @@ body{
     line-height: 22px;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 .section7{
-    font-family: Gelasio;
+    font-family: "Gelasio", sans-serif;
     font-style: normal;
     text-align: center;
-    font-family: Montserrat;
-    font-style: normal;
 }
 .section7_title{
     margin-top: 109px;
     font-weight: bold;
     font-size: 48px;
-    line-height: 61px;
+    line-height: 1.3em;
     text-align: center;
     color: #9C2128;
 }
@@ -359,7 +343,7 @@ body{
     flex:1;
     justify-content: center;
     margin-top: 40px;
-    line-height: 137.5%;
+    line-height: 1.2px;
     font-size: 18px;
 }
 .section7_box-left{
@@ -380,12 +364,11 @@ body{
     height: 60px;
     border-radius: 0px 30px 30px 0px;
     font-weight: 500;
-    line-height: 137.5%;
+    line-height: 1.2em;
     color: #FFFFFF;
     background-color:#9B2128;
     border: 1px solid #000000;
     border-left: none;
-    letter-spacing: 2px;
 }
 .section7_box button:hover{  
     background-color: #530C10;
@@ -396,22 +379,418 @@ body{
     height: 680px;
     margin-top: 109px;
     text-align: center;
+    background-size: cover;
+    background-position: center bottom ;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
 
 }
 .section8_title{
     font-weight: bold;
     font-size: 48px;
-    line-height: 61px;
+    line-height: 1.3em;
     text-align: center;
     color: #9C2128;   
-    padding-top: 105px;
+    padding-top: 90px;
 }
 .section8_para{
     color: #530C10;
-    padding-top: 51px;
+    padding: 51px 0px;
 }
-#button_item-link{
-    width:260px;
-    height: 55px;
-    padding-top: 34px;
+.new{
+    padding: 15px 40px;
+}
+.new:hover{
+    padding: 15px 40px;
+}
+@media only screen and (max-width: 1024px) {
+    .banner_content{
+        margin-left: 90px;
+        padding: 250px 0px;
+    }
+
+    .benefit_item{
+        width: 280px;
+        height: 280px;
+    }
+    .benefit_img{
+        margin: auto;
+        padding: 16px 0px;
+    }
+   .gift-for-_item1{
+       margin: 0px;
+   }
+   .img-item1{
+       width:240px;
+       height: 300px ;
+   }
+}
+@media only screen and (max-width: 768px) {
+    .banner_container{
+        background-size: cover;
+        background-position: 50% 90%;
+        min-height: 640px;
+        height: auto;
+        background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-c74a6316--bgmobile.png?v=1604890796&selected");
+    }
+    .banner_content{
+        padding-top: 94px;
+        margin-left: 42px;
+        margin-right: 22px;
+    
+    }
+    .banner_title{
+        font-size: 36px;
+        line-height: 45.7px;
+        color: #FFF8E7;
+        width: auto;
+    }
+    .banner_para{
+        font-size: 13px;
+        line-height: 18px;
+        color: #FFFFFF;
+        padding-bottom: 16px;
+        width: auto;
+        margin-right: 16px;
+        
+    }
+    .btn-link{
+        padding: 12px 32px;
+    }
+    .btn-link:hover{
+        padding: 12px 32px;
+    
+    }
+    .section2{
+        width: 100%;
+        height: auto;
+        padding: 40px 0px;
+    }
+    .benefit_title{
+        font-size: 24px;
+        line-height: 26.47px;
+        padding-bottom: 30px;
+        margin: 0px 28px;
+    }
+    .benefit_block{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+        gap: 10px;
+        margin: 0px 16px;
+        box-sizing: border-box;
+    }
+    .benefit_item{
+        width: 108px;
+        height: 108px;
+        background: #FFF8E7;
+        border-radius: 15px;
+    }
+    .benefit_img{
+        width: 56px;
+        height: 56px;
+        margin: auto;
+        padding-top: 14px;
+    }
+    .benefit_img img{
+        width: 100%;
+        height: auto;
+    }
+    .benefit_para{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .countdown{
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    .cd_title{
+        padding-top: 100px;
+        font-size: 24px;
+        line-height: 110.3%;
+    }
+    .cd_time{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+        gap: 7px;
+        padding-bottom: 100px;
+        margin: 0px 28px;
+    }
+    .cd_time-container{
+        width: 74px;
+        height: 74px;
+        border-radius: 100%;
+        background-color: white;
+        margin: 0px;
+    }
+    .cd_number{
+        margin: auto;
+        font-size: 24px;
+        line-height: 110.3%;
+        padding-top:15px;
+        box-sizing: border-box;
+        height: 30px;
+        width: 30px;
+    }
+    .cd_word{
+        font-size: 12px;
+        line-height: 15px;
+        line-height: 24px;
+        margin: 0px;
+        padding: 4px;
+    }
+    .section4{
+        display: flex;
+        justify-content: center;
+        margin-top: 2px;
+        flex-direction: column-reverse;
+        flex: 1;
+    }
+    .section4_left{
+        background-color: #9C2128;
+        color: #FFF8E7;
+        width: 100%;
+        height: auto;
+    }
+    .section4_right{
+        background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-d129cb84--photo1577029025893887706608495-1.png?v=1604451781");
+        background-size: contain;
+        background-position: center center;
+        width: 100%;
+        height: 220px;
+    }
+    .section4_left-content{
+        text-align: left;
+        margin: 0px 35px;
+        padding: 44px 0px;
+        height: auto;
+        width: auto;
+    }
+    .section4_left-title{
+        font-size: 24px;
+        line-height: 24.47px;
+    }
+    .secton4_left-para{
+        font-size: 13px;
+        
+    }
+    .section5{
+        font-style: normal;
+        padding: 40px 0px;
+        margin: 0 auto;
+        
+    }
+    .section5_title1{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .section5_title2{
+        margin: auto;
+        font-size: 24px;
+        line-height: 24.47px;
+        padding: 0px 80px;
+ 
+    }
+    .gift-for-{
+        padding: 20px;
+    }
+    .gift-for- h2{
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .gift-for-_item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .gift-for-_item1{
+        font-size: 20px;
+        width: 170px;
+        height: auto;
+        flex:46%;
+        margin: 0px
+
+    }
+    .img-item1{
+        height: auto;
+        width: auto; 
+    }
+    .img-item1 img{
+        height: 170px;
+        width: 132px;
+    }
+    .product-name{
+        font-size: 14px;
+    }
+    .price{
+        font-size: 14px;
+        line-height: 17px;
+        padding: 10px 0px;
+    }
+    .price-ori{
+        text-decoration: line-through;
+        margin-right: 10px;
+    }
+    .button_item-link{
+        padding: 8px 22px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .button_item-link:hover{
+        padding: 8px 22px;
+    }
+    .section6{
+        margin: 0 auto;
+    }
+    .section6_content{
+        width: auto;
+        height: auto;
+        padding: 69px 0px;
+    }
+    .section6_para1{
+        margin: 14px 20px;
+        width: auto;
+        height: auto;
+    }
+    .section6_img{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
+    .section6_para2{
+        width: auto;
+        height: auto;
+        font-size: 12px;
+        margin: 14px 29px;
+    
+    }
+    .section6_customer-name{
+        margin-top: 19px;
+        font-size: 12px;
+    }
+    .section7{
+        height: auto;
+    }
+    .section7_title{
+        margin-top: 39px;
+        font-size: 24px;
+        line-height: 27px;
+        padding: 0px 36px
+
+    }
+    .section7_box{
+        margin: 20px 15px 39px 15px;
+        font-size: 12px;
+        box-sizing: border-box;
+        
+    }
+    .section7_box-left{
+        width: 244px;
+        height: 50px;     
+    }
+    .section7_box button{
+        width: 110px;
+        height: 50px;
+    }
+    .section8{
+        background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-3c723af1--pexelsgiftpunditscom1303094-1.png?v=1604473193");
+        height: auto;
+        text-align: center;
+        background-size: cover;
+        background-position: center bottom ;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+    
+    }
+    .section8_title{
+        font-size: 24px;
+        line-height: 24.47px;
+        padding-top: 52px;
+        margin: 0px 89px;
+    }
+    .section8_para{
+        color: #530C10;
+        padding: 25px 0px;
+        font-size: 13px;
+        margin:0px 20px;
+    }
+    .new{
+        padding: 10px 32px;
+    }
+    .new:hover{
+        padding: 10px 32px
+    }
+}
+@media only screen and (max-width: 320px) {
+    .benefit_item{
+        width: 90px;
+        height: 90px;
+    }
+    .benefit_img{
+        padding-top: 12px;
+        padding-bottom: 4px;
+    }
+    .cd_time-container{
+        width: 61px;
+        height: 61px;
+    }
+    .section8_title{
+        margin: 0px 49px;
+    }
+    .section7_box-left{
+        width: 220px;
+        height: 50px;     
+    }
+    .section7_box button{
+        width: 86px;
+        height: 50px;
+    }
+    .section8_title {
+        margin: 0px 65px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .benefit_item{
+        width: 76px;
+        height: 76px;
+    }
+    .benefit_img{
+        width: 46px;
+        height: 46px;
+    }
+    .cd_time-container{
+        width: 50px;
+        height: 50px;
+    }
+    .cd_number{
+        padding-top: 8px
+    }
+    .cd_word{
+        padding: 0px
+    }
+    .gift-for-_item1 {
+        width: 100px;
+    }
+    .img-item1 img {
+        width: 122px;
+        height: 164px;
+    }
+    .section7_box{
+        font-size: 10px;
+    }
+    .section7_box-left{
+        width: 190px;
+        height: 40px;     
+    }
+    .section7_box button{
+        width: 76px;
+        height: 40px;
+    }
+    .section8_title{
+        margin: 0px 39px;
+    }
 }
